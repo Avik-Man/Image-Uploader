@@ -48,6 +48,6 @@ app.get('/', (req, res)=>{
     res.render('index')
 })
 
-app.listen(5000, ()=>{
+app.listen(process.env.PORT, ()=>{
     console.log('5000 Port Working')
 })
